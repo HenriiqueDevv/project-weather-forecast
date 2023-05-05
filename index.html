@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather Forecast</title>
+</head>
+
+<body>
+    <div class="background">
+        <div class="container">
+            <input class="name-city" type="text" placeholder="Digite o nome da Cidade">
+            <button onclick="clickButton()">
+                <img src="img/magnifying-glass.svg" alt="magnifying-glass">
+            </button>
+            <h2 class="text-weather-city">Tempo em São Paulo</h2>
+            <p class="temperature">21°C</p>
+            <div class="state">
+                <img class="img-forecast" src="https://openweathermap.org/img/wn/04d.png" alt="cloud">
+                <p class="temp-description">Nublado</p>
+            </div>
+            <p class="moisture">Umidade: 75%</p>
+        </div>
+    </div>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
