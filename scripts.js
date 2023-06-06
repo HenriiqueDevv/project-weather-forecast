@@ -19,7 +19,10 @@ async function seekCity(city) {
 
 function clickButton() {
     const city = document.querySelector('.name-city').value 
-    
+    if (!city){
+        alert("DIGITE UMA CIDADE")
+        return
+    }
     
     seekCity(city)
 
